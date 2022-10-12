@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 import errorHandler from "./src/middleWares/errorHandler.js";
 import morgan from "morgan";
 
+//.format('YYYY-MM-DD').utc()
+
 const app = Express();
 
 dotenv.config();
